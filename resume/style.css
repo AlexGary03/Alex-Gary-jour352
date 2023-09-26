@@ -3,7 +3,10 @@ body
     {font-family: 'open-sans', sans-serif;
     color:#444
     font-size 1em;}
-/* banner name at top */
+img
+    {/*get rid of alex-gary-headshot.png */}
+
+    /* banner name at top */
 h1
     {font-size: 3em;
         text-transform: uppercase;
