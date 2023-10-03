@@ -3,32 +3,45 @@ body
     {font-family: 'open-sans', sans-serif;
     color:#444
     font-size 1em;}
-img
-    {/*get rid of alex-gary-headshot.png */}
 
     /* banner name at top */
-h1
+#name
     {font-size: 3em;
         text-transform: uppercase;
         text-align: center;
-        color:#33485e}
+        color:#33485e;
+        margin:0 auto;
+        width: 0 auto;
+        border-style: solid; 
+        border-color: #33485e;
+        width: 60%;
+        min-width: 300 px; }
 /* job title */
 strong{font-size: 1.5em;
     text-transform: uppercase;}
-/* section title */
-h2 
+
+    /* section title */
+#sectionheader    
     {font-size: 1.5em;
         text-transform: uppercase;
         background-color: #33485e;
         color: white;
-        font-weight: 400;}
+        font-weight: 400;
+        margin-bottom: 10 px;    
+        margin-top: 20 px;
+        margin-left: 0 px;
+        margin-right: o px;
+        width: 70%;
+        min-width: 300 px;
+    
+    }
  /* job title */       
-h3
+#jobtitle
     {font-size: 1.5em;
         font-weight: 600;}
 /* job organization */
-h4
-    {font-size: 1.5em;
+#organization
+    {font-size: 1.25em;
         font-weight: 400;}
 /* job date */
 h5
