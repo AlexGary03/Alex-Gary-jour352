@@ -2,6 +2,25 @@
 .container text-center
     {text-align: center;}
 
-.col
-    {icon-size: 3em;
-    text-align: center;}
+h1
+    {font-family:"Special Elite" ;}
+
+h2
+    {font-family:"Special Elite" ;}
+
+h3
+    {font-family:"Special Elite" ;}
+
+.navbar-brand
+    {font-family:"Special Elite" ;}
+
+.btn btn-dark
+    {font-family:"Special Elite" ;}
+
+.row
+    {padding: 50px;}
+
+    @media only screen and (max-width: 500px) {
+        h2 {padding: 50px;}
+        .btn {background-color: teal;}
+        }
