@@ -1,0 +1,7 @@
+/*styles for bootstrap excercise */
+.container text-center
+    {text-align: center;}
+
+.col
+    {icon-size: 3em;
+    text-align: center;}
