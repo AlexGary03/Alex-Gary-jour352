@@ -1,0 +1,49 @@
+#content
+    {width:100%;
+    max-width: 900px;
+    margin:0 auto;}
+
+.masthead
+    {imag-align: center;
+    width: 100%;
+    length:50%;
+    margin:0 auto;}
+
+ .headline
+    {font-family: Helvetica, sans-serif;
+        font-size: 38px;}
+
+
+ #byline {
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        }
+
+.body
+        {font-family: Georgia, sans-serif;
+            font-size: 13px;}
+
+.tattoo-image-5
+{width:100%;
+    max-width: 900px;
+    margin:0 auto;}
+
+.caption
+    {font-size: 12px;
+        color: gray;}
+
+.tattoo-image-4
+        {width:100%;
+            max-width: 900px;
+            margin:0 auto;}
+
+.tattoo-image-3
+    {width:100%;
+    max-width: 900px;
+    margin:0 auto;}
+
+blockquote
+        {font-size: 30px;
+        color: blue;
+        font-style: italic;}
