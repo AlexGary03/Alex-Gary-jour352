@@ -1,0 +1,125 @@
+#content
+    {width:100%;
+    max-width: 900px;
+    margin:0 auto;}
+/*masthead*/
+.masthead
+    {image: center;
+    width: 100%;
+    length:50%;
+    margin:0 auto;}
+
+.headline
+    {font-family: Helvetica, Arial, sans-serif, sans-serif;
+        font-size: 38px;
+        text-align: center;
+        color: violet;}
+
+
+ #byline {
+    font-family: Helvetica, Arial, sans-serif, sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        text-align: center;
+        }
+
+#date {font-family: Helvetica, Arial, sans-serif, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    }
+.sza-7
+{image: center;
+    width: 100%;
+    length:50%;
+    margin:0 auto;}
+.body-1
+    {font-family: Helvetica, Arial, sans-serif, sans-serif;
+        font-size: 20px;
+        padding-left: 20%;
+        padding-right: 20%;}
+.body-2
+        {font-family: Helvetica, Arial, sans-serif, sans-serif;
+            font-size: 20px;
+            padding-left: 20%;
+            padding-right: 20%;}
+.body-3
+            {font-family: Helvetica, Arial, sans-serif, sans-serif;
+                font-size: 20px;
+                padding-left: 20%;
+                padding-right: 20%;}
+.subhead-1
+        {font-family: Helvetica, Arial, sans-serif, sans-serif;
+            font-size: 28px;
+            text-align: center;
+            font-style: italic;
+            color: violet; }
+.subhead-2
+        {font-family: Helvetica, Arial, sans-serif, sans-serif;
+            font-size: 28px;
+            text-align: center;
+            font-style: italic;
+            color: violet;}
+.attributions
+            {font-family: Helvetica, Arial, sans-serif, sans-serif;
+                font-size: 20px;
+                font-style: italic;
+                padding-left: 20%;
+                padding-right: 20%;
+                color: violet;}
+/*caption for photos styles*/
+.caption
+     {font-size: 17px;
+     color: violet;
+     text-align: center;
+     padding-left: 18%;
+     padding-right: 18%;}
+
+.sza-2
+        {width:100%;
+            max-width: 900px;
+            margin:0 auto;
+            padding-left: 18%;
+            padding-right: 18%;}
+
+.sza-3
+{width:100%;
+    max-width: 900px;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;}
+
+.sza-5
+{width:100%;
+    max-width: 900px;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;}
+
+.sza-4
+{width:100%;
+    max-width: 900px;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;}
+
+.related
+    {font-family: Helvetica, Arial, sans-serif, sans-serif;
+        padding-left: 18%;
+        padding-right: 18%;
+        text-align: center;}
+.li
+    {font-family: Helvetica, Arial, sans-serif, sans-serif;
+        padding-left: 18%;
+        padding-right: 18%;
+        text-align: center;
+        color: violet;}
+/*blockquote*/
+
+blockquote
+{font-size: 40px;
+    color: violet;
+    text-align: center;
+    font-style: italic;
+    padding-left: 18%;
+    padding-right: 18%;}
