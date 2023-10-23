@@ -7,70 +7,135 @@
     <title>Alex Gary's Resume</title>
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!--Mastehad start-->
 <center>
     <img src="web-graphic.png" class="masthead">
     </center>
 </head>
-<body>
-<br> </body></body>
-
-
- <!--image--> 
- <div class="three-columns-grid">
-    <div><img src="alex-gary-headshot.png" class="picture"></div>
-<!--description-->
-    <div><div id="title">Multimedia Journalist</div>
-    <p class="title-description">I am a multimedia journalist that specializes in sports broadcasting. I concentrate on storytelling through the medium of sport. I have experience shooting, editing, and producing my own content. I am also capable of being an on-air talent.</p></div>
-</div>
-
-<div id="sectionheader">Experience</div> 
-<br> </body></body>
-<div class="row">
-    <div class="column"></div>
-    <div class="jobtitle"> Student Content Creator</div>
-    <div class="organization">NBC Sports</div>
-    <div class="date">August 2023 - Present</div>
+<br></br>
+<!--carousel-->
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="desk.png" class="desk" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="interview.png" class="interview" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="screen.png" class="screen" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
+<body id="body">
+<!--Responsive left align hero with image start-->
+<div class="b-example-divider"></div>
+
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="alex-gary-headshot.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="mmj">Multimedia Journalist</h1>
+      <p class="lead">I am a broadcast journalist that specializes in sports broadcasting. I concentrate on storytelling through the medium of sport. I have experience shooting, editing, and producing my own content. I am also capable of being an on-air talent.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      </div>
+    </div>
+  </div>
+</div>    
+ <!--Responsive left align hero with image end-->
+<!--experience 1-->
+<h2 class="experience">Experience</h2>
+<div class="row">
+    <div class="col-2">
+        <img src="NBC.png" class="nbc">
+    </div>
+    <div class="col-10">
+        <div id="jobtitle"> Student Content Creator</div>
+<div id="organization">NBC Sports</div>
+<div id="date">August 2023 - Present</div>
 <p class="description">I work with the video and editorial teams at NBC Sports to pitch, produce and publish content that showcases stories and perspectives from on the ground at the University of Maryland, from history and tradition to game-day storylines to feature interviews.</p>
-
-<div id="jobtitle"> Multimedia Journalist</div>
+    </div>
+  </div>
+</div>
+<!--experince 2-->
+<div class="row">
+    <div class="col-2">
+        <img src="jsz.png" class="jsz">
+    </div>
+    <div class="col-10">
+        <div id="jobtitle"> Multimedia Journalist</div>
 <div id="organization">Jersey Sports Zone</div>
-<div id="date">June 2023 - August 2023</div>
-<p class="description">I attended various high school athletic events across New Jersey, 
-    capturing game highlights. After each game, I would showcase high-definition highlights 
-    and tell the narrative of the event. Additionally, I would share and promote this engaging content on various social media platforms</p>
-
-<div id="jobtitle"> Video Production Intern</div>
+<div id="date">June 2023 – August 2023</div>
+<p class="description">I attended various high school athletic events across New Jersey, capturing game highlights. After each game, I would showcase high-definition highlights and tell the narrative of the event. Additionally, I would share and promote this engaging content on various social media platforms.</p>
+    </div>
+  </div>
+</div>
+<!--experience 3-->
+<div class="row">
+    <div class="col-2">
+        <img src="tmg.png" class="tmg">
+    </div>
+    <div class="col-10">
+        <div id="jobtitle">Video Production Intern</div>
 <div id="organization">Teplizky Management Group</div>
-<div id="date">June 2023 - August 2023</div>
+<div id="date">June 2023 – August 2023</div>
 <p class="description">At Teplitzky Management Group I interviewed clients/athletes to create video packages highlighting their work both on and off the field. I would also create video packages to assist in building the brand of these athletes and taking advantage of NIL opportunities.</p>
-
-<div id="jobtitle"> Senior Producer and Social Media Manager</div>
+    </div>
+  </div>
+</div>
+<!--experience 4-->
+<div class="row">
+    <div class="col-2">
+        <img src="csp.png" class="csp">
+    </div>
+    <div class="col-10">
+        <div id="jobtitle"> Assistant/Note Taker</div>
+<div id="organization">Continental Sports Podcast</div>
+<div id="date">June 2023 - Present</div>
+<p class="description">Assist talent by taking notes for weekly podcast episodes. I held to coordinate the rundown for the three episodes each week and aid by providing subject matter and talking points to hosts. Additionally I compile any important statistic from sports news to be discussed during recording.</p>
+    </div>
+  </div>
+</div>
+<!--student involvement-->
+<h2 class="experience">Student Involvement</h2>
+<div class="row">
+    <div class="col-2">
+        <img src="tsc.png" class="tsc">
+    </div>
+    <div class="col-10">
+        <div id="jobtitle"> Senior Producer and Social Media Coordinator</div>
 <div id="organization">Terrapin Sports Central</div>
 <div id="date">August 2021 - Present</div>
 <p class="description">For my role as Senior Producer, I create compelling content highlighting Maryland Terrapins athletics. Responsibilities include conducting interviews, shooting, and editing video and social media promotion. For my role as social media coordinator, I create captions for game recaps, packages, and segments to post on social as well as monitor Terrapin Sports Central social media posts on twitter.</p>
+    </div>
+  </div>
+</div>
 
-<div id="jobtitle"> Intern</div>
-<div id="organization">Marisa Brahney</div>
-<div id="date">May 2022-August 2022</div>
-<p class="description">Assisted lifestyle journalist Marissa Brahney with on-air segments from her at home studio. I also helped set up at-home studio for televised segment along with social media posts.</p>
+<h2 class="education">Education</h2>
+<p class="umd">Bachelor of Art, Journalism, University of Maryland- College Park, 2025</p>
+<br></br>
 
-<div id="sectionheader">Education</div> 
-<ul id="degrees">
-    <li>Bachelor of Art, Journalism, University of Maryland- College Park, 2025</li>
+<h2 class="skills">Skills</h2>
+<ul class="li-skill">
+    <li><span class="bolded">Interviewing</span>- Ability to meet with subjects of varied backgrounds and elicit a great connection to lead to great soundbites</li>
+    <li><span class="bolded">Scriptwriting</span>- writing concise scripts to be read by anchors and other on-air talent. Scripts are relevant to the topic and interesting to the viewer.</li>
+    <li><span class="bolded">Camera work</span>- Ability to use a camera to create quality content. Also, can use studio broadcast cameras to enhance an overall broadcast</li>
+    <li><span class="bolded">Video Editing</span>- Ability to use Premier Pro to edit content.</li>
+    <li><span class="bolded">On-air Talent</span>- project a confident self on air while remaining professional</li>
 </ul>
-
-<div id="sectionheader">Skills</div> 
-<ul>
-    <li>Interviewing- Ability to meet with subjects of varied backgrounds and elicit a great connection to lead to great soundbites</li>
-    <li>Scriptwriting- writing concise scripts to be read by anchors and other on-air talent. Scripts are relevant to the topic and interesting to the viewer.</li>
-    <li>Camera work- Ability to use a camera to create quality content. Also, can use studio broadcast cameras to enhance an overall broadcast</li>
-    <li>Video Editing- Ability to use Premier Pro to edit content.</li>
-    <li>On air talent- project a confident self on air while remaining professional</li>
-</ul>
-</body>
 
 <footer>
     <ul class="menu">
@@ -81,11 +146,5 @@
          <li><a href="https://github.com/AlexGary03">GitHub</a></li>
     </ul>
 </footer>
-</body>
-</html>
 
-</html>
-
-    
-</body>
 </html>

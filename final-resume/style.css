@@ -7,21 +7,10 @@
             margin:0 auto;
             float: left;
             width: 50%;}
-.body
-        {background-color: silver;
-        }
+#body
+        {background: silver;
+            font-family: Helvetica, Arial, sans-serif, sans-serif;;}
 
-        
-/* container */
-.three-columns-grid {
-    display: grid;
-    grid-auto-rows: 2fr;
-    grid-template-columns: 1fr 1fr;
-}
-/* columns */
-.three-columns-grid > * {
-    padding:1rem;
-}
 #title
     {font-size: 50px;
     text-align: center;
@@ -31,14 +20,11 @@
     {font-size: 30px;
         text-align: center;}
 
-.slide
-        {}
-
         footer {
             background-color: #2C2B37;
-            color: #fff;
+            color: silver;
             text-align: center;
-            padding: 1rem 0;
+            width: 100%;
         }
         
         footer ul {
@@ -53,3 +39,89 @@
         {font-size: 30px;
         block-size: auto;
         font-weight: bold;}
+
+.interview {width: 100%;
+    margin:0 auto;}
+.screen {width: 100%;
+    margin:0 auto;}
+    .desk {width: 100%;
+        margin:0 auto;}
+  
+/*Responsive left align hero with image*/     
+.mmj
+        {font-size: 40px;
+            font-family: Helvetica, Arial, sans-serif, sans-serif;
+            color:#2C2B37}
+.lead {font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif, sans-serif;
+    color:#2C2B37}
+
+
+.education
+        {padding-left: 5%;
+            padding-right: 5%;
+            color:#2C2B37
+        }
+.umd {padding-left: 5%;
+    padding-right: 5%;}
+.experience {padding-left: 5%;
+    padding-right: 5%;
+color:#2C2B37}
+
+    .header_menu{
+        border-bottom:1px solid #CCC;   
+        }
+        
+        .links{
+        width:75%;
+        display:inline;
+        }
+        .social_media{
+        width:25%;
+        display:inline;
+        }
+.nbc {padding-left: 43%;
+        padding-top: 8%;
+    }
+/* job title */       
+#jobtitle
+    {font-size: 20px;
+        font-weight: 600;
+        color:#2C2B37}
+/* job organization */
+#organization
+    {font-size: 1.25em;
+        font-weight: 400;
+        color:#2C2B37}
+/* job date */
+#date
+    {font-size: 1em;
+        font-style: italic;
+        margin-top: 2 px;
+        margin-bottom: 0 px;
+        margin-left: 0 px;
+        margin-right: 0 px;
+        color:#2C2B37}
+.description
+        {padding-right: 10%;
+            color:#2C2B37}
+
+.jsz {padding-left: 43%;
+        padding-top: 8%;}
+.tmg {padding-left: 43%;
+    padding-top: 8%;}
+.csp {padding-left: 43%;
+    padding-top: 8%;}
+.tsc {padding-left: 43%;
+    padding-top: 8%;}
+
+.skills
+{padding-left: 5%;
+    padding-right: 5%;}
+
+.li-skill
+{padding-left: 8%;
+    padding-right: 5%;}
+
+.bolded 
+    {font-weight: bold;}
