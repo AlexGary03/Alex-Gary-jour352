@@ -113,7 +113,8 @@ color:#2C2B37}
 .csp {padding-left: 43%;
     padding-top: 8%;}
 .tsc {padding-left: 43%;
-    padding-top: 8%;}
+    padding-top: 8%;
+    max-width: fit-content;}
 
 .skills
 {padding-left: 5%;
@@ -123,5 +124,18 @@ color:#2C2B37}
 {padding-left: 8%;
     padding-right: 5%;}
 
+.links
+{padding-left: 5%;
+    padding-right: 5%;}
+    .link
+    {padding-left: 7%;
+        padding-right: 5%;
+        color: #2C2B37;}
+
 .bolded 
     {font-weight: bold;}
+
+    @media screen {
+        body { max-width: 320px — 480px;
+        }
+      }
