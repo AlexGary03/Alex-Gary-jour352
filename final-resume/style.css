@@ -131,9 +131,11 @@ color:#2C2B37}
     {padding-left: 7%;
         padding-right: 5%;
         color: #2C2B37;}
-
+     
 .bolded 
     {font-weight: bold;}
+
+
 
     @media screen {
         body { max-width: 320px — 480px;
