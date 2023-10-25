@@ -52,10 +52,13 @@
         {font-size: 40px;
             font-family: Helvetica, Arial, sans-serif, sans-serif;
             color:#2C2B37}
-.lead {font-size: 20px;
+.lead {font-size: 100px;
     font-family: Helvetica, Arial, sans-serif, sans-serif;
     color:#2C2B37}
 
+
+.resume {font-size: 20px;}
+.reel {font-size: 20px;}
 
 .education
         {padding-left: 5%;
@@ -132,6 +135,7 @@ color:#2C2B37}
         padding-right: 5%;
         color: #2C2B37;}
      
+
 .bolded 
     {font-weight: bold;}
 
