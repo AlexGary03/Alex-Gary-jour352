@@ -1,0 +1,174 @@
+.navbar {padding: .5%;
+        color: red;}
+.navbar-brand {color: red;
+    text-align: center;
+    padding-left: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+ #justice-georgie {image: center;
+    width: 100%;
+    length:50%;
+    margin:0 auto;}
+
+    .image-container {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .image-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+        
+      }
+      
+      .overlay-text {
+        position: absolute;
+        top: 30%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        background-color: #000000; 
+        color: #fe0000; 
+        padding: 10px 20px; 
+        font-size: 100px; 
+        text-align: center;
+        opacity:80%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.overlay-text-2 {position: absolute;
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fd0000; 
+    padding: 10px 20px; 
+    font-size: 34px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:600px }
+.headline {text-align: center;
+            font-weight:bold;
+            font-size: 45px;
+            padding-top: 3%;
+            font-family:Georgia, 'Times New Roman', Times, serif ;}
+
+.byline {text-align: center;
+            padding-top: 1%;
+            font-weight: 300;
+            font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.chapter-headline {font-weight: bold;
+                    font-size: 50px;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    padding-top: 2%;
+                    padding-bottom: 1%;
+                    color: #fd0000;
+                    text-align: center;
+                    font-style: italic;}
+
+.text {padding-left: 20%;
+        padding-right: 20%;
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+#garden {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+#sonia
+{width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+#melissa {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+#ac {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+blockquote {font-size: 40px;
+    color: maroon;
+    text-align: center;
+    font-style: italic;
+    padding-left: 18%;
+    padding-right: 18%;}
+
+.caption
+    {color: gray;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;}
+
+.container {padding-left: 7.5%;
+            padding-right: 7.5%;
+            padding-top: 2%;
+            padding-bottom: 1%;}
+
+#datawrapper-chart-aZV7f {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+#datawrapper-chart-45M4X {width:100%;
+    margin:0 auto;
+    text-align: center;}
+
+#datawrapper-chart-Es9S6 {width:100%;
+    margin:0 auto;
+    text-align: center;}
+
+#datawrapper-chart-g17ar {width:100%;
+    margin:0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;}
+
+
+#map {width:100%;
+    margin:0 auto;
+    text-align: center;}
+
+#box {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    border-style: groove;
+    border-top: 5%;
+    border-bottom: 5%;
+    border-left: 30%;
+    border-right: 30%;
+    border-color: #fd0000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fd0000;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    mask-border-width:15% ;
+    font-size: 23px ;}
+
+.attribution {font-size: 18px;
+            font-style: italic;
+            padding-left: 18%;
+            padding-right: 18%;
+            color: #fd0000;}
+
+.footer {background-color: gray;
+    margin-bottom: 0.5rem;}
+
+    @media screen {
+        body { max-width: 320px — 480px;
+        }
+      }
