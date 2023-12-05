@@ -1,0 +1,113 @@
+.navbar {padding: .5%;}
+
+.masthead
+    {image: center;
+    width: 100%;
+    length:50%;
+    margin:0 auto;}
+
+body {background-image: url(bkg.jpg);
+        background-size: cover;}
+
+.body{color: white;
+        outline-color:black ;}
+
+.headline {text-align: center;
+            font-weight:bold;
+            font-size: 50px;
+            padding-top: 3%;
+            color: white;
+            outline-color:black ;
+            outline-width:medium;}
+
+.chapter-headline {font-weight: bold;
+                    font-size: 38px;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    padding-top: 2%;
+                    padding-bottom: 1%;
+                    text-align: center;}
+
+.text {padding-left: 20%;
+        padding-right: 20%;
+        font-size: 23px;}
+
+#best {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+#jj-cmc {width:70%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+    #datawrapper-chart-FvOnt {width:100%;
+        margin:0 auto;
+        padding-left: 18%;
+        padding-right: 18%;
+        text-align: center;
+        background-color: white;
+        }
+
+#gibbs {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+blockquote {font-size: 40px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding-left: 18%;
+    padding-right: 18%;}
+
+    #datawrapper-chart-huUo3 {width:100%;
+        margin:0 auto;
+        padding-left: 18%;
+        padding-right: 18%;
+        text-align: center;
+        background-color: white;}
+
+#pitt {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+
+#datawrapper-chart-S8IZL {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;
+    background-color: white;}
+
+#saints {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+#purdy {width:100%;
+    margin:0 auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;}
+
+.caption
+    {color: white;
+    font-size: 15px;
+    padding-left: 20%;
+    padding-right: 20%;}
+
+.container {padding-left: 7.5%;
+            padding-right: 7.5%;
+            padding-top: 2%;
+            padding-bottom: 1%;}
+
+.footer {background-color: gray;
+    margin-bottom: 0.5rem;}
