@@ -115,3 +115,8 @@ blockquote {font-size: 40px;
 
 .footer {background-color: gray;
     margin-bottom: 0.5rem;}
+
+    @media screen {
+        body { max-width: 320px — 480px;
+        }
+      }
